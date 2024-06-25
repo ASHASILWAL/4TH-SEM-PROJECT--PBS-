@@ -1,0 +1,836 @@
+
+
+
+
+  /* LOgin area setting*/
+  
+  
+  .loginbox {
+    position: absolute;
+    width: 400px;
+    left: 25%;
+    top: 32%;
+    border: 1px solid olivedrab;
+    text-align: center;
+    padding-bottom: 14px;
+    color: olivedrab;
+  }
+  
+  .passbox {
+    position: absolute;
+    width: 400px;
+    left: 2%;
+    top: 25%;
+    border: 2px solid olivedrab;
+    text-align: center;
+    padding-bottom: 14px;
+    color: olivedrab;
+  }
+  
+  .passbox label {
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    width: 101px;
+    padding-top: 16px;
+    margin-left: 4px;
+  }
+  
+  .passbox h1 {
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: bolder;
+    color: olivedrab;
+    font-size: 25px;
+  }
+  
+  .passbox input[type="text"],
+  .passbox input[type="password"] {
+    width: 270px;
+    padding: 5px 5px;
+    font-weight: bold;
+    margin: 5px;
+    margin-left: 10px;
+    margin-right:5px ;
+    border: none;
+    color: purple;
+    padding: 11px 5px;
+    border-radius: 2px;
+  }
+  
+  .passbox input[type="submit"] {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    margin: auto 0;
+    margin-left: 120px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    background: olivedrab;
+    border: none;
+    color: black;
+    border-radius: 10px;
+  }
+  
+  .loginbox h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: olivedrab;
+    text-decoration-color: black;
+    font-size: 30px;
+  }
+
+    
+  
+  .loginbox input[type="text"],
+  .loginbox input[type="password"] {
+    width: 300px;
+    padding: 5px 10px;
+    font-weight: bold;
+    margin: 10px;
+    border-color: olivedrab;
+    padding: 10px 10px;
+    border-radius: 5px;
+    color: purple;
+  }
+  
+  .loginbox input[type="submit"] {
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    margin: auto 0;
+    margin-left: 66px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    background: olivedrab;
+    border: olivedrab;
+    color: black;
+    border-radius: 15px;
+  }
+  
+  a#reg {
+    text-decoration: none;
+    color:  lime;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  
+  /*Regisration area setting*/
+
+  .registbox {
+    position: absolute;
+    width: 400px;
+    left: 23%;
+    top: 32%;
+    border: 1px solid olivedrab;
+    text-align: center;
+    padding-bottom: 14px;
+    border: 1px solid olivedrab;
+}
+
+.registbox h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: olivedrab;
+    font-size: 25px;
+}
+
+p.acount {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.registbox input[type="text"],
+.registbox input[type="email"],
+.registbox input[type="password"],
+.registbox input[type="file"] {
+  color : purple;
+    width: 270px;
+    padding: 8px 8px;
+    font-weight: bold;
+    margin: 8px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 2px;
+}
+
+.registbox input[type="submit"] {
+    text-align: center;
+    width: 150px;
+    padding: 4px;
+    margin-left: 22px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    background: olivedrab;
+    border: none;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.registbox label {
+    float: left;
+    width: 65px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 11px;
+    margin-top: 8px;
+    color: olivedrab;
+}
+
+   
+  p.addusererror,
+  p.aderrorMsg {
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    width: 275px;
+    position: absolute;
+    left: 1%;
+    top: 40%;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 6px;
+  }
+  
+  p.addusrerror,
+  p.aderrorMsg {
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    width: 275px;
+    position: absolute;
+    left: 1%;
+    top: 50%;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 6px;
+  }
+  
+
+  p.errorMsg {
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    width: 275px;
+    position: absolute;
+    left: 1%;
+    top: 40%;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 6px;
+  }
+  
+  p.loginerror {
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    width: 275px;
+    position: absolute;
+    left: 1%;
+    top:40%;
+    border-radius: 2px;
+    font-size: 20px;
+    padding: 6px;
+  }
+  p.cpasssuc {
+    text-align: center;
+    border: 1px solid black;
+    background-color: olivedrab;
+    color: darkgreen;
+    width: 275px;
+    position: absolute;
+    left: 1%;
+    top: 40%;
+    border-radius: 2px;
+    font-size: 17px;
+    padding: 6px;
+  }
+  
+  p.cpass {
+    text-align: center;
+    border: 1px solid black;
+    background-color: white;
+    color:red;
+    width: 275px;
+    position: absolute;
+    left: 1%;
+    top: 40%;
+    border-radius: 2px;
+    font-size: 17px;
+    padding: 6px;
+    top: 20%;
+  }
+  
+  p.addsucces {
+    text-align: left;
+    left: 1%;
+    border: 1px solid black;
+    background-color:olivedrab;
+    color: darkgreen;
+    width: 275px;
+    position: absolute;
+    padding: 5px;
+    border-radius: 2px;
+    font-size: 19px;
+    top: 40%;
+  }
+  
+  p.succes {
+    text-align: center;
+    /* margin-top: 36px; */
+    border: 1px solid black;
+    background-color: olivedrab;
+    color: darkgreen;
+    width: 275px;
+    position: absolute;
+    left: 1%;
+    top: 40%;
+    padding: 3px;
+    border-radius: 2px;
+    font-size: 19px;
+  }
+  
+  p.regsucces {
+    text-align: center;
+    left: 1%;
+    /* margin-top: 36px; */
+    border: 1px solid olivedrab;
+    background-color: olivedrab;
+    color: darkgreen;
+    width: 275px;
+    position: absolute;
+    top: 40%;
+    padding: 3px;
+    border-radius: 2px;
+    font-size: 19px;
+  }
+  /* Homepage setting*/
+  div#home {
+    position: absolute;
+    float: left;
+    padding: 5px;
+  }
+  
+  #home h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: olivedrab;
+    text-decoration-color: black;
+  }
+
+  div#cont {
+    position: absolute;
+    float: left;
+    padding: 5px;
+  }
+  
+  #cont h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: black;
+    text-decoration-color: black;
+  }
+  
+  
+  /*Dashboard page setting*//*home page*/
+  
+  div#main {
+    position: absolute;
+    float: left;
+    left: 0%;
+    top: 0%;
+    padding: 5px;
+  }
+  
+  #main h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: olivedrab;
+    text-decoration-color: black;
+  }
+  
+  div#home1 {
+    position: absolute;
+    float: left;
+    left: 0%;
+    top: 0%;
+    padding: 5px;
+  }
+  #home1 h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: olivedrab;
+    text-decoration-color: black;
+  }
+/* password h1*/
+  div#mains {
+    position: absolute;
+    float: left;
+    left: 8%;
+    top: 1%;
+    padding: 5px;
+  }
+  
+  #mains h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: olivedrab;
+    text-decoration-color: black;
+  }
+  
+  
+  p.loged span {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  
+  p.loged {
+    text-align: center;
+    position : left;
+    font-size: 16px;
+    font-weight: bold;
+    color: olivedrab;
+  text-decoration-color: black;
+  }
+  
+  
+  h2.chead {
+    margin-left: 36px;
+    text-transform: capitalize;
+    background: olivedrab;
+    padding: 2px 3px;
+    width: 390px;
+    color: black;
+    border-radius: 2px 19px olivedrab;
+    box-shadow: 5px olivedrab;
+    border: 1px dashed olivedrab;
+  }
+  
+  p.cpara {
+    margin-left: 46px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+  }
+
+  p.cparas {
+    margin-left: 46px;
+    font-size: 25px;
+    color: white;
+}
+
+
+  
+  /*(Add user page setting*/
+  
+  p.view {
+    margin: 0 auto;
+  }
+  
+  p.count {
+    background: olivedrab;
+    float: left;
+    margin-top: -38px;
+    width: 25%;
+    border-radius: 12px;
+    color: black;
+    padding: 1px 5px;
+    border: none;
+    margin-right: -11px;
+  }
+
+  .totalcontact p {
+    text-align: center;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    margin-top: 50px;
+    border: 4px solid black;
+    padding: 58px;
+    color: olivedrab;
+    font-size: 30px;
+}
+
+.totalcontact p span {
+    font-size: 30px;
+}
+
+
+  
+  
+  .addusrbox {
+    position: absolute;
+    width: 400px;
+    left: 25%;
+    top: 32%;
+    border: 1px solid olivedrab;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  .addusrbox h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: olivedrab;
+    font-size: 25px;
+  }
+  
+  .addusrbox input[type="text"],
+  .addusrbox input[type="password"],
+  .addusrbox input[type="email"],
+  .addusrbox input[type="number"] {
+    color: purple;
+    width: 250px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 20px;
+    border-radius: 2px;
+    border: none;
+  }
+  
+  .addusrbox input[type="submit"] {
+    text-align: center;
+    width: 150px;
+    padding: 9px;
+    margin: auto 0;
+    border-radius: 2px;
+    padding-left: 20;
+    margin-bottom: 3px;
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    background:olivedrab;
+    border: none;
+    color: black;
+    border-radius: 20px;
+    margin-left: 22px;
+  }
+  
+  .addusrbox label { 
+    float: left;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size : 16px ;
+    color: olivedrab;
+  }
+  
+  p.prof {
+    position: center;
+    text-align: center;
+    color:olivedrab;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* view user page setting*/
+  
+  table.viewtabl {
+
+    width: 65%;
+    padding: 1px 1px;
+    background:cornflowerblue;
+    border-radius: 7px;
+    box-shadow: 3px 3px transparent;
+  }
+  
+  .viewtabl td {
+    border: 1px solid black;
+    width: 70px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-color:white;
+  }
+  table.viewtabl td.ev a#del,
+  a#edt {
+    background: silver;
+    padding: 1px 2px;
+    text-align: center;
+    /* width: 25px; */
+    border-radius: 2px;
+    text-decoration: none;
+    margin: 2px 2px;
+    color: purple;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  table.viewtabl td.ev a#del:hover,
+  table.viewtabl td.ev a#edt:hover {
+    background: blanchedalmond;
+  }
+
+/*view profile*/
+  table.viewtab {
+
+    width: 150%;
+    padding: 1px 1px;
+    background:cornflowerblue;
+    border-radius: 7px;
+    box-shadow: 3px 3px transparent;
+  }
+  
+  .viewtab td {
+    border: 1px solid black;
+    width: 70px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-color:white;
+  }
+  table.viewtab td.ev a#del,
+  a#edt {
+    background: silver;
+    padding: 1px 2px;
+    text-align: center;
+    /* width: 25px; */
+    border-radius: 2px;
+    text-decoration: none;
+    margin: 2px 2px;
+    color: purple;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  table.viewtab td.ev a#del:hover,
+  table.viewtab td.ev a#edt:hover {
+    background: blanchedalmond;
+  }
+
+  /*user profile*/
+
+  table.viewtable {
+      width: 50%;
+      padding: 1px 1px;
+      background:cornflowerblue;
+      border-radius: 7px;
+      box-shadow: 3px 3px transparent;
+    }
+    
+  
+  .viewtable td {
+    border: 1px solid black;
+    width: 70px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-color:white;
+  }
+  .viewtable th {
+    border: 1px solid black;
+    width: 70px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration-color:white;
+  }
+  
+  
+  .addusrbox1 {
+    position: absolute;
+    width: 400px;
+    left: 70%;
+    top: 65%;
+    border: 1px solid olivedrab;
+    text-align: center;
+    padding-bottom: 25px;
+  }
+  
+  .addusrbox1 h1 {
+    text-transform: capitalize;
+    text-align: center;
+    color: olivedrab;
+    font-size: 25px;
+  }
+  
+  .addusrbox1 input[type="text"],
+  .addusrbox1 input[type="password"],
+  .addusrbox1 input[type="email"],
+  .addusrbox1 input[type="number"] {
+    color: purple;
+    width: 250px;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 6px;
+    margin-left: 15px;
+    border-radius: 2px;
+    border: none;
+  }
+  
+  .addusrbox1 input[type="submit"] {
+    text-align: center;
+    width: 150px;
+    padding: 9px;
+    margin: auto 0;
+    border-radius: 2px;
+    padding-left: 20;
+    margin-bottom: 3px;
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    background:olivedrab;
+    border: none;
+    color: black;
+    border-radius: 20px;
+    margin-left: 22px;
+  }
+  
+  .addusrbox1 label { 
+    float: left;
+    width: 75px;
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size : 16px ;
+    color: olivedrab;
+  }
+  
+  
+  
+  /* change password page setting */
+  
+  .loginbox label {
+    float: left;
+    width: 101px;
+    padding-top: 16px;
+    margin-left: 4px;
+  }
+
+
+  
+  .menu {
+    float: left;
+    left : 1%;
+    border: none;
+    border: 0px;
+    margin: 0px;
+    padding: 10px;
+    font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans",
+      "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  
+  .menu ul {
+    background: olivedrab;
+    height: 50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    -webkit-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+    -moz-box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+    box-shadow: inset 0px 16px 0px 0px rgba(255, 255, 255, 0.1);
+  }
+  
+  .menu li {
+    float: left;
+    left : 3%;
+    padding: 0px 0px 0px 5px;
+  }
+  
+  .menu li a {
+    color: black;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    margin: 0px;
+    padding: 0px 15px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background: olive;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .menu ul li:hover a {
+    background: olive;
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .menu li ul {
+    display: none;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    position: absolute;
+    width: 200px;
+    z-index: 200;
+  }
+  
+  .menu li:hover ul {
+    display: block;
+  }
+  
+  .menu li li {
+    display: block;
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background: olive;
+    /*this is where the rounded corners for the dropdown disappears*/
+  }
+  
+  .menu li:hover li a {
+    background: none;
+  }
+  
+  .menu li ul a {
+    display: block;
+    height: 50px;
+    font-size: 20px;
+    font-style: normal;
+    margin: 0px;
+    padding: 0px 10px 0px 15px;
+    text-align: left;
+  }
+  
+  .menu li ul a:hover,
+  .menu li ul li:hover a {
+    border: 0px;
+    color: #ffffff;
+    text-decoration: none;
+    background: olive;
+    -webkit-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0px 0px 7px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  table td label {
+    color: olivedrab;
+  }
+
+  
+  
+  
+  
+ 
+  
